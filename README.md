@@ -154,3 +154,6 @@ println
 - Since it is implemented in Shortcuts, ISM runs very slow. This was something I already expected before I start the project.
 - There are no `break` functionality in Shortcuts, so I had a little problem while working on `jump` operation. To overcome this I defined a constant value of `999999999999`, which is a really large number. No ISM program can have more lines than this constant (lines that are re-executed after a jump also count in this sum.)
 
+## Contribution
+
+Any contribution is appreciated. But beware that since Shortcuts file format is binary, version control will probably be like hell.
