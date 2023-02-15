@@ -9,7 +9,7 @@ Well, now you can!
 IOS Stack Machine (ISM) is an interpreter implemented in Apple Shortcuts, thus it works in all Apple devices that have Shortcuts app installed.
 ## Quick Start: Hello World
 
-After installing ISM to your device, go ahead and open Notes app and create a new note. Name the note however you like however, the name of your note should end with `.ism`, so that ISM can see your code.
+After installing ISM to your device, go ahead and open Notes app and create a new note. The name of your note should end with `.ism`, so that ISM can see your code. That's why after naming your note, append `.ism`to the end of title.
 
 To the next line, append this code.
 
