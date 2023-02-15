@@ -149,6 +149,16 @@ load B
 println
 ```
 
+## Misc.
+
+All functionality of Shortcuts can be added to ISM. However currently, the instruction set is pretty small. One misc. instruction ISM has is `open`. You can use this instruction to open an application in your device. 
+
+e.g. 
+```
+open Spotify // or
+open App Store
+```
+
 ## Limitations
 
 - Since it is implemented in Shortcuts, ISM runs very slow. This was something I already expected before I start the project.
