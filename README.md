@@ -11,6 +11,8 @@ IOS Stack Machine (ISM) is an interpreter implemented in Apple Shortcuts, thus i
 
 To install ISM, directly download `IOS Stack Machine.shortcut` which is located in this repository. Shortcuts app may require you to change some settings. After adding IOS Stack Machine to your Shortcuts, you are good to go! 
 
+Also, I heard that .shortcut files sometimes cause issues. So, you can also download the shortcut from [here](https://www.icloud.com/shortcuts/5e1d3ec5e1c6490d886556400ec01b3a).
+
 ## Quick Start: Hello World
 
 After installing ISM to your device, go ahead and open Notes app and create a new note. The name of your note should end with `.ism`, so that ISM can see your code. That's why after naming your note, append `.ism`to the end of title.
