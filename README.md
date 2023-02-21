@@ -64,9 +64,9 @@ To print a message, you can do `println ISM Rocks!`. However, if you like to see
 
 `readln` allows you to take input from the user. It pushes the input to the stack. You can also use with an argument, such as `readln Give me a number`, to change the prompt message. 
 
-## Binary Instructions: `add` & `eq`
+## Binary Instructions: `add`, `sub`, `div`, `mul` & `eq`
 
-Binary operations pop 2 items from the top of the stack, and then push the result back. For example, `add`operation in the below program pops 1 and 2, pushes 3 back to the stack:
+Binary operations pop 2 items from the top of the stack, and then push the result back. For example, `add` operation in the below program pops 1 and 2, pushes 3 back to the stack:
 
 ```
 push 1
@@ -74,7 +74,7 @@ push 2
 add
 println
 ```
-This program outputs 3. 
+This program outputs 3. You can also use `sub`, `div` and `mul` the same way.
 
 Above we used `println` without any arguments. This way of using `println` allows you to see what is the top element of the stack.
 
