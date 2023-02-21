@@ -95,7 +95,7 @@ println       // prints 1
 ```
 If two elements are equal, eq returns 1 and 0 otherwise.
 
-## Branching: `jump`& `jnz`
+## Branching: `jump`, `jnz` & `jpop`
 
 ISM doesn't have for & while loops and if-else statements. It only allows jumping, which anyone can use to implement those higher level expressions. 
 
@@ -123,6 +123,34 @@ ISM doesn't have for & while loops and if-else statements. It only allows jumpin
     println Thank you for listening to me! I am happy as ever!
     ```
     
+- `jpop` instruction
+    Pops a number from the stack, and then jumps to the line with this number. Does not take any arguments.
+    
+    
+## Memory: `load`and `store`
+
+You can assign variables with `store` instruction.
+
+- `store`
+  Pops from the stack, and writes to memory.
+
+```
+push 3
+store x // x is now 3
+```
+
+- `load`
+  Gets the value of the specified variable, and pushes to the stack.
+ 
+ ```
+ push 4
+ push 1
+ add
+ store x
+ load x
+ println // prints 5
+```
+
 ## Example: Fibonacci
 
 ```
