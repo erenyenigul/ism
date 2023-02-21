@@ -9,9 +9,7 @@ Well, now you can!
 IOS Stack Machine (ISM) is an interpreter implemented in Apple Shortcuts, thus it works in all Apple devices that have Shortcuts app installed.
 ## Installation
 
-To install ISM, directly download `IOS Stack Machine.shortcut` which is located in this repository. Shortcuts app may require you to change some settings. After adding IOS Stack Machine to your Shortcuts, you are good to go! 
-
-Also, I heard that .shortcut files sometimes cause issues. So, you can also download the shortcut from [here](https://www.icloud.com/shortcuts/5e1d3ec5e1c6490d886556400ec01b3a).
+You can download and get started with the shortcut from [here](https://www.icloud.com/shortcuts/5e1d3ec5e1c6490d886556400ec01b3a).
 
 ## Quick Start: Hello World
 
