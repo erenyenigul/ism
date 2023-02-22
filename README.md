@@ -109,8 +109,8 @@ ISM doesn't have for & while loops and if-else statements. It only allows jumpin
     println Hello from line 3!
     ```
 - `jnz`instruction
-    Jumps execution to the provided line **if** the top of the stack is **not zero**.
-    This instruction can be used to implement branching in your code.
+    Jumps execution to the provided line **if** the top of the stack is **not zero**. (Pops from stack)
+    This instruction can be used to implement branching in your code. 
     
     ```
     gimmeanumber.ism
@@ -124,8 +124,10 @@ ISM doesn't have for & while loops and if-else statements. It only allows jumpin
     ```
     
 - `jpop` instruction
-    Pops a number from the stack, and then jumps to the line with this number. Does not take any arguments.
+   Pops a number from the stack, and then jumps to the line with this number. Does not take any arguments.
     
+### Relative Jump
+   If you want to jump to a line by a relative value, you can use `$`. e.g. `jump $2` will lead you 2 lines below.  
     
 ## Memory: `load`and `store`
 
@@ -149,6 +151,17 @@ store x // x is now 3
  store x
  load x
  println // prints 5
+```
+
+## Copy the top of the stack: `copy`
+
+If you need to copy the top of the stack, use `copy` instruction. It will get the value on the top (without pop), and push it again. 
+
+```
+push 3
+copy
+add
+println // prints 6!
 ```
 
 ## Example: Fibonacci
