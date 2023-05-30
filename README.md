@@ -20,7 +20,7 @@ To the next line, append this code.
 ```asm
 println Hello world!
 ```
-In ISM, every line must contain a single instruction. First word in the line is the instruction name and the rest is the arguments. Beware that number of spaces between each argument, or between argument and the instruction matters. There should be a single space.
+In ISM, every line must contain a single instruction. First word in the line is the instruction name and the rest are the arguments. Beware that number of spaces between each argument, or between argument and the instruction matters. There should be a single space.
 
 Also, as you've seen, you don't need to use double quotes (`"`) to indicate strings.
 
