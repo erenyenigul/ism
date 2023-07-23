@@ -1,10 +1,9 @@
-<img src="docs/logo.png" alt=“ISM-logo” width="50">
 
-# IOS Stack Machine
+# ios stack machine (ism)
 
-## Ever wondered if you can use Apple Notes to write code? 📝
+### ever wondered if you can use Apple Notes to write code? 
 (probably not.)
-Well, now you can!
+Well, now you **can**!
 
 IOS Stack Machine (ISM) is an interpreter implemented in Siri Shortcuts, thus it works in all Apple devices that have Shortcuts app installed.
 ## Installation
