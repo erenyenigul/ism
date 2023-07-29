@@ -1,0 +1,21 @@
+fibbonaci.ism
+println This program prints a fibbonaci number.
+push 4
+push 1
+push 2
+
+load A
+load B
+
+copy
+store A
+
+add
+store B
+
+push -1
+add
+copy
+jnz 5
+load B
+println
