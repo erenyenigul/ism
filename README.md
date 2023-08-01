@@ -8,7 +8,7 @@ Well, now you **can**!
 IOS Stack Machine (ISM) is an interpreter implemented in Siri Shortcuts, thus it works in all Apple devices that have Shortcuts app installed.
 ## Installation
 
-You can download and get started with the shortcut from [here](https://www.icloud.com/shortcuts/5e1d3ec5e1c6490d886556400ec01b3a).
+You can download and get started with the shortcut from [here](https://www.icloud.com/shortcuts/fd4017088eda4d33acf8bc1ac8fa4bc0).
 
 ## Quick Start: Hello World
 
