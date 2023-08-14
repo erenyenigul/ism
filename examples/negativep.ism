@@ -1,0 +1,70 @@
+“negativep.ism” by Brian Parker (July 2023)
+
+A predicate to check negative numbers.
+
+To check if a number is positive or negative, adding the square root of the number squared would equal zero if it’s negative and double if it’s positive.
+
+***Code******
+~~~Initialization: negativep~~~~~~
+readln Enter number to check if negative…
+store negativep-n
+
+~~~Body: negativep~~~~~~
+load negativep-n
+jnz $5
+load negativep-n
+copy
+jump $45
+
+load negativep-n
+copy
+mul
+store negativep-nn
+
+===SQRT(negativep-nn)======
+~~~Initialization: sqrt~~~~~~
+load negativep-nn
+store sqrt-n
+push 1
+store sqrt-subtrahend
+push 1
+store sqrt-result
+
+~~~Body: sqrt~~~~~~~
+load sqrt-subtrahend
+load sqrt-n
+sub
+copy
+jnz $3
+jump $13
+
+store sqrt-n
+push 2
+load sqrt-subtrahend
+add
+store sqrt-subtrahend
+push 1
+load sqrt-result
+add
+store sqrt-result
+jump $-16
+
+load sqrt-result
+===End SQRT(negativep-nn)=========
+
+load sqrt-result
+store negativep-nn-sqrt
+load negativep-n
+load negativep-nn-sqrt
+add
+push 0
+eq
+store negativep-result
+
+~~~I-O: negativep~~~~~~
+load negativep-result
+jnz $2
+jump $3
+println Your number is negative.
+jump $2
+println Your number is not negative.
